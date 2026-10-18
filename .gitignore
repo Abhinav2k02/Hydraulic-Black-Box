@@ -4,7 +4,7 @@ __pycache__/
 .env
 data/original.zip
 
-
+.env.*
 credentials/*.json
 *.zip
 !.env.example
