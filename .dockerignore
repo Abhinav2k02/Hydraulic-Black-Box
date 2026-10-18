@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+.git
+data/original.zip
+.env
+
+.env.*
+credentials/*.json
+*.zip

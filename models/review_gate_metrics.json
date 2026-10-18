@@ -1,0 +1,2195 @@
+{
+  "test_cycles": 436,
+  "flagged_cycles": 299,
+  "unflagged_cycles": 137,
+  "total_classifier_errors": 5,
+  "flagged_classifier_errors": 4,
+  "unflagged_classifier_errors": 1,
+  "unflagged_accuracy": 0.9927007299270073,
+  "review_rate": 0.6857798165137615,
+  "flagged_correct_predictions": 295,
+  "method": "Flag any feature outside training min/max, or any of the three nearest training labels differing from the prediction. Rules fixed before evaluating the held-out split; no vote-share cutoff.",
+  "limitations": "Single-rig retrospective held-out evaluation. Rules were not tuned on these labels. Unflagged does not mean safe. No factory validation or calibrated confidence. Current model was not retrained.",
+  "examples": [
+    {
+      "cycle_id": 242,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 243,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 244,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 245,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 246,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 247,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 248,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 249,
+      "flagged": true,
+      "wrong": true
+    },
+    {
+      "cycle_id": 250,
+      "flagged": true,
+      "wrong": true
+    },
+    {
+      "cycle_id": 251,
+      "flagged": true,
+      "wrong": true
+    },
+    {
+      "cycle_id": 273,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 274,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 275,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 276,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 277,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 278,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 279,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 280,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 281,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 282,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 324,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 325,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 326,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 327,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 328,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 329,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 330,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 331,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 332,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 333,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 334,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 335,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 336,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 337,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 338,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 339,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 340,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 341,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 342,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 343,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 345,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 346,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 347,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 348,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 349,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 350,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 351,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 352,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 353,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 354,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 355,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 356,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 357,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 358,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 359,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 360,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 361,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 362,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 363,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 364,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 396,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 397,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 398,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 399,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 400,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 401,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 402,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 403,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 404,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 405,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 447,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 448,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 449,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 450,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 451,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 452,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 453,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 454,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 455,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 456,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 488,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 489,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 490,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 491,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 492,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 493,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 494,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 495,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 496,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 497,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 549,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 550,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 551,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 552,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 553,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 554,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 555,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 556,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 557,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 558,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 570,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 571,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 572,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 573,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 574,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 575,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 576,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 577,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 578,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 579,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 652,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 653,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 654,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 655,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 656,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 657,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 658,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 659,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 660,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 661,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 662,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 663,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 664,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 665,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 666,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 667,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 668,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 669,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 670,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 671,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 943,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 944,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 945,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 946,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 947,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 948,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 949,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 950,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 951,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 952,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 953,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 954,
+      "flagged": true,
+      "wrong": true
+    },
+    {
+      "cycle_id": 955,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 956,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 957,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 958,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 959,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 960,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 961,
+      "flagged": false,
+      "wrong": true
+    },
+    {
+      "cycle_id": 962,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 963,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 964,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 965,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 966,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 967,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 968,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 969,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 970,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 971,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 972,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 973,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 995,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 996,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 997,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 998,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 999,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1000,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1001,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1002,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1003,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1004,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1015,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1016,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1017,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1018,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1019,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1020,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1021,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1022,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1023,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1024,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1076,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1097,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1098,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1099,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1100,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1101,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1102,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1103,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1104,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1105,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1106,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1159,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1160,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1161,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1162,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1163,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1164,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1165,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1166,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1167,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1168,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1179,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1180,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1181,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1182,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1183,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1184,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1185,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1186,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1187,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1188,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1189,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1190,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1191,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1192,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1193,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1194,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1195,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1196,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1197,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1198,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1230,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1231,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1232,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1233,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1234,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1235,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1236,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1237,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1238,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1239,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1312,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1313,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1314,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1315,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1316,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1317,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1318,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1319,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1320,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1321,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1322,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1323,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1324,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1325,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1326,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1327,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1328,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1329,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1330,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1331,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1332,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1333,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1334,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1335,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1336,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1337,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1338,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1339,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1340,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1341,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1343,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1344,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1345,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1346,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1347,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1348,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1349,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1350,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1351,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1352,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1363,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1364,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1365,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1366,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1367,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1368,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1369,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1370,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1371,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1372,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1373,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1374,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1375,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1376,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1377,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1378,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1379,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1380,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1381,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1382,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1383,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1404,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1405,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1406,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1407,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1408,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1409,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1410,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1411,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1412,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1413,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1414,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1415,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1416,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1417,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1418,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1419,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1420,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1421,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1422,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1423,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1445,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1446,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1447,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1448,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1449,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1450,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1451,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1452,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1453,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1454,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1706,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1707,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1708,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1709,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1710,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1711,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1712,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1713,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1714,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1715,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1727,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1728,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1729,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1730,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1731,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1732,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1733,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1734,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1735,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1736,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1778,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1779,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1780,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1781,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1782,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1783,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1784,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1785,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1786,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1787,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1850,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1851,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1852,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1853,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1854,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1855,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1856,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1857,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1858,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1859,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1870,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1871,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1872,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1873,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1874,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1875,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1876,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1877,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1878,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1879,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1891,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1892,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1893,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1894,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1895,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1896,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1897,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1898,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1899,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1900,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1942,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1943,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1944,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1945,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1946,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1947,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1948,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1949,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1950,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1951,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1972,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1973,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1974,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1975,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1976,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1977,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1978,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1979,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1980,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1981,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1982,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1983,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1984,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1985,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1986,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1987,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1988,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1989,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1990,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1991,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 1992,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2013,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2014,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2015,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2016,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2017,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2018,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2019,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2020,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2021,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2022,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2115,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2156,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2167,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2168,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2169,
+      "flagged": true,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2170,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2171,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2172,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2173,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2174,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2175,
+      "flagged": false,
+      "wrong": false
+    },
+    {
+      "cycle_id": 2176,
+      "flagged": false,
+      "wrong": false
+    }
+  ]
+}

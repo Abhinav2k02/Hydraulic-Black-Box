@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/original.zip
+
+.env.*
+credentials/*.json
+*.zip
+!.env.example
+config/gcp.json

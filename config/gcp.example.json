@@ -1,0 +1,9 @@
+{
+  "project_id": "YOUR_GCP_PROJECT_ID",
+  "region": "asia-south1",
+  "vertex_location": "global",
+  "gemini_model": "YOUR_AVAILABLE_GEMINI_MODEL_ID",
+  "service_name": "hydraulic-black-box",
+  "runtime_service_account": "hydraulic-runtime",
+  "build_service_account": "hydraulic-build"
+}

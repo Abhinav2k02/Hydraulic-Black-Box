@@ -1,0 +1,12 @@
+.gcloudignore
+.git
+.gitignore
+.venv
+__pycache__
+**/__pycache__/**
+*.pyc
+.env
+.env.*
+credentials/
+*.zip
+data/original.zip

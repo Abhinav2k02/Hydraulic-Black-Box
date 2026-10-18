@@ -1,0 +1,86 @@
+[
+  {
+    "path": "UPDATE_V3.txt",
+    "sha256": "b73056bc4f0467cb6275ed8998d40057e802dacc1fee8984088066b89b3540d2"
+  },
+  {
+    "path": "app/agents/prompts.py",
+    "sha256": "34056c01456eb470937bfdd4ab59eedc076b7dc8959c9ea34b2859f009dbbeb2"
+  },
+  {
+    "path": "app/agents/tools.py",
+    "sha256": "cf9d67f77f114244f556d158465f43dd8f0ad70992aabd9ebc59b0fec9c1e2cd"
+  },
+  {
+    "path": "app/fonts/DejaVuSans-Bold.ttf",
+    "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  {
+    "path": "app/fonts/DejaVuSans.ttf",
+    "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+  },
+  {
+    "path": "app/fonts/LICENSE.txt",
+    "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+  },
+  {
+    "path": "app/reporting.py",
+    "sha256": "dca1953257b2826ac5a5801493965a21a8c92f5e68346670426122bddb5ea900"
+  },
+  {
+    "path": "app/server.py",
+    "sha256": "16e677633b72242f7a4c1f3cabc57abe24dba03f8995d033456600a1bf0f4b4a"
+  },
+  {
+    "path": "app/static/agents.js",
+    "sha256": "82b55af7e414f72ac4904459556eebda519ae9383eadd2e65ab6d9632f0ebe23"
+  },
+  {
+    "path": "app/static/app.js",
+    "sha256": "1ebfbd64bc19a83bd69235c996449560b00916ce3447fa32393d8b7c73b3e690"
+  },
+  {
+    "path": "app/static/index.html",
+    "sha256": "ffb182c22798ee307e86b3c7ecd06d0631e63589b4abe64d693b8526d93e1fad"
+  },
+  {
+    "path": "app/static/inspection.js",
+    "sha256": "d35782f115c78d0be8a0feac5c738316aa7966cef804c5bd7e75c136d800ffde"
+  },
+  {
+    "path": "app/static/style.css",
+    "sha256": "fdbee0005aed235c107f180a1d9d1f579f8fce97c7052d78d68d4b39257966ab"
+  },
+  {
+    "path": "app/verification.py",
+    "sha256": "969111eb11969a818f2d7deabdba5117e246502a20d7351a999153aa302032b3"
+  },
+  {
+    "path": "app/vertex.py",
+    "sha256": "c8fcae2de39529cd7e575b2cb65bb6e02bca0532ab671103b96062f076b51429"
+  },
+  {
+    "path": "docs/INSPECTION_UPDATE.md",
+    "sha256": "0a0b1398805c4984221531ec786616ce0e748930e134a3d1a483faf2c07e2b9a"
+  },
+  {
+    "path": "models/review_gate_metrics.json",
+    "sha256": "a834be7897604cdf08177bb59426cbc50fccfdc709488b865a762946726f1714"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "1ccf7f1bfafdc473fe95cb68e7dab171d292f94b938191743d6a6833e704e696"
+  },
+  {
+    "path": "scripts/evaluate_review_gate.py",
+    "sha256": "f6f1b59b79e4e3a7a98474e5d78797dc4f1c7051f531149d176e527e7af5e369"
+  },
+  {
+    "path": "tests/test_frontend.cjs",
+    "sha256": "2172571df48503cf87ea14052329ec28b1a2889270cec8bf01ab9c31ababb8ec"
+  },
+  {
+    "path": "tests/test_inspection.py",
+    "sha256": "0ba48662856794198a605d16baa8fa760333e4e6d69bd301e0629b96be449f15"
+  }
+]

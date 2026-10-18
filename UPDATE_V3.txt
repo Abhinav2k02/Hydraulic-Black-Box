@@ -1,0 +1,48 @@
+HYDRAULIC BLACK BOX - CHANGED FILES ONLY
+
+Apply this ZIP to your existing complete hydraulic-black-box project.
+It is NOT a standalone project. No .env, credentials, sensor data or classifier
+model is included or overwritten.
+
+WINDOWS STEPS
+1. Stop the running server: Ctrl+C in its terminal.
+2. Back up your existing project folder.
+3. Extract this ZIP into a temporary folder.
+4. Copy ALL contents of that extracted folder into your existing project root:
+   C:\Users\abhin\Downloads\Hydraulic-Black-Box\hydraulic-black-box
+   This is the folder containing app, data, models and requirements.txt.
+   Merge folders and select Replace files when asked. Do NOT replace/delete
+   whole app/models folders: merge them so original files remain.
+5. Open a terminal in that project root and run:
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe -m app.server
+6. Open http://127.0.0.1:8080 and press Ctrl+F5 to reload updated JavaScript.
+   Leave your working .env and credentials exactly as they are.
+
+QUICK CHECK
+1. Recording 242 is selected. Click View readings (no AI needed).
+2. You should see Pause and verify, expandable next checks and a manual source.
+3. Tick a checklist step: the review counter updates.
+4. Expand Manual guidance & source and open the source link.
+5. Add optional notes and click Download PDF report. Open the PDF.
+6. Click Check pump with AI. After it finishes, the explanation should use
+   readable headings and bullets. Inspect Technical details for completed tools.
+7. Enter a follow-up question. The existing four agents handle it as before.
+8. Optional: enable electricity costs, fill all three inputs and choose the
+   leakage scenario, then check/export again. Changing inputs clears prior context.
+
+IF SOMETHING FAILS
+- No module named reportlab: repeat the pip install command with .venv Python.
+- Old UI: Ctrl+F5, and confirm inspection.js exists inside app\static.
+- PDF font error: copy app\fonts including BOTH .ttf files from this ZIP.
+- Missing uncertainty evaluation: copy models\review_gate_metrics.json.
+- AI error: .\.venv\Scripts\python.exe scripts\check_gcp.py --live
+  Local verification and PDF export do not need Gemini credentials.
+
+For an existing Cloud Run deployment, redeploy using your existing deployment
+process after merging these files. A local file replacement does not update
+an already deployed service.
+
+See docs\INSPECTION_UPDATE.md for implementation, measured limitations and tests.
+PATCH_FILES.json lists changed/new files and their checksums. Existing full-
+project SHA256SUMS.txt describes the earlier full ZIP, not this patch.
